@@ -55,5 +55,3 @@ def factorial(n):
 [__FreeCodeCamp - Responsive Web Design Certificate__](https://www.freecodecamp.org/certification/fcc001fe431-6cae-4dbe-bd5b-9a0d26f9654e/responsive-web-design)
 
 
-
-
