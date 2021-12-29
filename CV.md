@@ -23,8 +23,27 @@
 * English (B1 level)
 
 ## Code Example
+### Qudratic Equation Solver (Js):
 ```
-
+function quadraticEquation (a, b, c) {
+	let d = b * b - 4 * a * c
+	console.log(`D = ${d}`)
+	if (d >= 0) {
+		let x1 = ((-b) + Math.sqrt(d)) / (2 * a)
+		let x2 = ((-b) - Math.sqrt(d)) / (2 * a)
+		console.log(`X1 = ${x1} and X2 = ${x2}`)
+		return [x1, x2]
+	} else {
+		console.log("D < 0")
+		return []
+	}
+}
+```
+### Recursive Factorial Solver (Py):
+```
+def factorial(n):
+	if n == 1: return 1
+	else: return factorial(n-1)*n
 ```
 
 
