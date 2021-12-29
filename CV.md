@@ -53,6 +53,9 @@ def factorial(n):
 * __https://codepen.io/Olena_Rr/full/porKYEe__
 * __https://codepen.io/Olena_Rr/full/JjyRQbd__
 
+## Education
+[FreeCodeCamp - Responsive Web Design Certificate](https://www.freecodecamp.org/certification/fcc001fe431-6cae-4dbe-bd5b-9a0d26f9654e/responsive-web-design)
+
 
 
 
