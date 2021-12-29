@@ -1,15 +1,13 @@
 # Olena Riaba
-
-## e-mail: _olenkar093@gmail.com_
-## GitHub: _https://github.com/OlenaRr_
-## CodePen: _https://codepen.io/Olena_Rr_
-## Location: Vinnytsia, Ukraine
-
-<br>
+### __e-mail:__ _olenkar093@gmail.com_
+### __GitHub:__ _https://github.com/OlenaRr_
+### __CodePen:__ _https://codepen.io/Olena_Rr_
+### __Location:__ _Vinnytsia, Ukraine_
+***
 
 ## Summary 
-<p>I am me. I started learning because, I want to achieve this and that.</p>
-<br> 
+<p>Currently working as a radiologist in a hospital, I wanted to explore other professions which could potentially improve my level of life and bring more benefits for the amount of work I do. Programming happens to be possibly the best option to achieve that, so I started taking courses and dived in self-learning on the topic. So far, I have fully completed a course on FreeCodeCamp (Responsive Web Design), started the next part about JavaScript, also currently undertaking a course at Rolling Scopes School (JavaScript/Front-end. Stage 0) and plan on taking the following courses there as well.</p>
+<p>I believe that with my level of commitment, interest and being a hard-worker, I can achieve substantial results in my learning and proceed with working in the industry.</p>
 
 ## Skills
 * HTML, CSS (basic)
@@ -22,8 +20,8 @@
 * Russian (second language proficiency)
 * English (B1 level)
 
-## Code Example
-### Qudratic Equation Solver (Js):
+## Code Examples
+### Qudratic Equation Solver (JS):
 ```
 function quadraticEquation (a, b, c) {
 	let d = b * b - 4 * a * c
@@ -47,14 +45,14 @@ def factorial(n):
 ```
 
 
-## Experience
-* __https://codepen.io/Olena_Rr/full/porxjrj__
-* __https://codepen.io/Olena_Rr/full/mdMwPQz__
-* __https://codepen.io/Olena_Rr/full/porKYEe__
-* __https://codepen.io/Olena_Rr/full/JjyRQbd__
+## Relevant Experience
+* [__Portfolio webpage (codepen)__](https://codepen.io/Olena_Rr/full/porxjrj)
+* [__Documentation webpage (codepen)__](https://codepen.io/Olena_Rr/full/porKYEe)
+* [__Form filling webpage (codepen)__](https://codepen.io/Olena_Rr/full/mdMwPQz)
+* [__Tribute webpage (codepen)__](https://codepen.io/Olena_Rr/full/JjyRQbd)
 
-## Education
-[FreeCodeCamp - Responsive Web Design Certificate](https://www.freecodecamp.org/certification/fcc001fe431-6cae-4dbe-bd5b-9a0d26f9654e/responsive-web-design)
+## Relevant Education
+[__FreeCodeCamp - Responsive Web Design Certificate__](https://www.freecodecamp.org/certification/fcc001fe431-6cae-4dbe-bd5b-9a0d26f9654e/responsive-web-design)
 
 
 
