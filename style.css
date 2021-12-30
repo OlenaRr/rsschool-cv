@@ -1,1 +1,74 @@
-Hello, World!
+* {
+    
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.section{
+    text-align: center;
+    
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.nav-list, .footer-list {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+ul { display: inline-block; 
+    text-align: left; }
+.nav-link{
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    transition: .3s;
+}
+
+.contact-link, .project-link, .education-link{
+    transition: .7s;
+    color: rgb(21, 148, 199);
+}
+
+a:hover{
+    color: brown;
+
+}
+
+
+.section{
+    font-size: 20.8px;
+
+}
+
+body>footer{
+    background-color: aqua;
+    
+}
+
+.year{
+    font-weight: bold;
+    font-size: x-large;
+}
+.footer-logo {
+    height: 7vh;
+}
