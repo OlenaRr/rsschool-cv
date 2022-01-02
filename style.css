@@ -1,67 +1,111 @@
 * {
-    
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: calc(0.1em + 1vw);
+
+   
 
 }
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+body {
+    
+    min-width: 500px;
     min-height: 100vh;
-    margin: 0;
     padding: 0;
-    background-color: bisque;
+    border: 0.1em solid black;
+    margin: 0 10em; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-sizing: border-box;
+
+
 }
-.section{
-    text-align: center;
+.section-title{
+    background-color: rgba(58, 26, 8, 0.548);
+}
+.main-header, .footer-list{
+    background-color: rgba(58, 26, 8, 0.863);
+    width: 100%;
+}
+
+
+
+.container {  
+    display: flex;
     
 }
 
-.container{
-    max-width: 1440px;
-    margin: 0 auto;
+.part-left {
+
+    flex: 30%;
+    background-color: rgba(58, 26, 8, 0.726);
+    text-align: center;
 }
+.part-right {
+    flex: 70%;
+    background-color: rgba(73, 28, 2, 0.39);
+}
+
 
 
 .nav-list, .footer-list {
     list-style: none;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;
+    justify-content: end;
  
 }
+
+
 ul { display: inline-block; 
     text-align: left; }
-.nav-link{
-    padding: 0 20px;
+
+.nav-link {
+    padding: 0 2em;
     line-height: 50px;
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    
     transition: .3s;
 }
 
-.contact-link, .project-link, .education-link{
+.contact-link, .project-link, .education-link {
     transition: .7s;
-    color: rgb(21, 148, 199);
+    color: rgb(83, 37, 5);
+}
+
+/*pre { text-align: left; }
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+  }*/
+
+.pre {
+    position: relative;
+    padding: 0;
 }
 
 a:hover{
-    color: brown;
+    color: rgba(51, 21, 4, 0.651);
+    background-color: rgba(83, 37, 5, 0.205);
 
 }
 
 
 .section{
     font-size: 20.8px;
-
+    border: 1em solid transparent;
+}
+.photo{
+    width: 14em;
+/*    border-radius: 50%;*/
 }
 
 body>footer{
-    background-color: aqua;
+    width: 100%;
     
 }
 
