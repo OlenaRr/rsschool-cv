@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset= utf-8>
+        <title id="title">CV</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="container">            
+                <ul class="nav-list">
+                    <li>
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#summary" class="nav-link">Summary</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#languages" class="nav-link">Languages</a>
+                    </li>
+                    <li>
+                        <a href="#code" class="nav-link">Code Examples</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#education" class="nav-link">Relevant Education</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+
+        <main class="main">
+            <div class="container">
+                <div class="part-left">
+                    <div class="section" id="profile">
+                        <img src="photo.jpg" alt="photo" class="photo">
+                        <h1 class="name">Olena Riaba</h1>
+                    </div>
+
+                    <div class="section" id="contacts">
+                        <h2 class="section-title">Contacts</h2>
+                        <br>
+                        <ul>
+                            <li>E-mail: <a href="mailto:olenkar093@gmail.com" class="contact-link">olenkar093@gmail.com</a></li>
+                            <li>GitHub: <a href="https://github.com/OlenaRr" class="contact-link">https://github.com/OlenaRr</a></li>
+                            <li>CodePen: <a href="https://codepen.io/Olena_Rr" class="contact-link">https://codepen.io/Olena_Rr</a></li>
+                            <li>Location: Vinnytsia, Ukraine.
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="part-right">
+                    <div class="section" id="summary">
+                        <h2 class="section-title">Summary</h2>
+                        <br>
+                        <p>Currently working as a radiologist in a hospital, I wanted to explore other professions which could potentially improve my level of life and bring more benefits for the amount of work I do. Programming happens to be possibly the best option to achieve that, so I started taking courses and dived in self-learning on the topic. So far, I have fully completed a course on FreeCodeCamp (Responsive Web Design), started the next part about JavaScript, also currently undertaking a course at Rolling Scopes School (JavaScript/Front-end. Stage 0) and plan on taking the following courses there as well.</p>
+                        <p>I believe that with my level of commitment, interest and being a hard-worker, I can achieve substantial results in my learning and proceed with working in the industry.</p>
+                    </div>
+
+                    <div class="section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        <br>
+                        <ul>
+                            <li>HTML, CSS (basic)</li>
+                            <li>JavaScript (basic)</li>
+                            <li>Python (basic)</li>
+                            <li>SQL (elementary)</li>
+                        </ul>
+                    </div>
+
+                    <div class="section" id="languages">
+                        <h2 class="section-title">Languages</h2>
+                        <br>
+                        <ul>
+                            <li>Ukrainian (native proficiency)</li>
+                            <li>Russian (second language proficiency)</li>
+                            <li>English (B1 level)</li>
+                        </ul>
+                    </div>
+
+                    <div class="section" id="code">
+                        <h2 class="section-title">Code Examples</h2>
+                        <br>
+                        <ul>
+                            <li>Qudratic Equation Solver (JS):
+                                <pre class="pre">
+                                    <code>
+function quadraticEquation (a, b, c) {
+    let d = b * b - 4 * a * c
+    console.log(`D = ${d}`)
+    if (d >= 0) {
+        let x1 = ((-b) + Math.sqrt(d)) / (2 * a)
+        let x2 = ((-b) - Math.sqrt(d)) / (2 * a)
+        console.log(`X1 = ${x1} and X2 = ${x2}`)
+        return [x1, x2]
+    } else {
+        console.log("D &lt; 0")
+        return []
+    }
+}
+
+                            </code>
+                        </pre>
+                            </li>
+                            <li><p>Qudratic Equation Solver (JS):
+                                <pre>
+                                    <code>
+def factorial(n):
+    if n == 1: return 1
+    else: return factorial(n-1)*n
+                                    </code>
+                                </pre>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="section" id="projects">
+                        <h2 class="section-title">Projects</h2>
+                        <br>
+                        <ul>
+                            <li><a href="https://codepen.io/Olena_Rr/full/porxjrj" class="project-link">Portfolio webpage (codepen)</a></li>                      
+                            <li><a href="https://codepen.io/Olena_Rr/full/porKYEe" class="project-link">Documentation webpage (codepen)</a></li>
+                            <li><a href="https://codepen.io/Olena_Rr/full/mdMwPQz" class="project-link">Form filling webpage (codepen)</a></li>
+                            <li><a href="https://codepen.io/Olena_Rr/full/JjyRQbd" class="project-link">Tribute webpage (codepen)</a></li>
+                        </ul>
+                    </div>
+                    <div class="section" id="education">
+
+                        <h2 class="section-title">Relevant Education</h2>
+                        <br>
+                        <ul><li><a href="https://www.freecodecamp.org/certification/fcc001fe431-6cae-4dbe-bd5b-9a0d26f9654e/responsive-web-design" class="education-link">FreeCodeCamp - Responsive Web Design Certificate</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <footer>
+            <div class="container">
+                <ul class="footer-list">
+                    <li>
+                        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" class ="footer-logo" alt="Rs-school logo"></a>
+                    </li>
+                    <li>
+                        <br>
+                        <p class="year">-2021-</p>
+                    </li>
+                    <li>
+                        <a href="https://github.com/OlenaRr"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNTEycHgiIGlkPSJMYXllcl8xIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWwoJLnN0MHtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDt9Cl1dPjwvc3R5bGU+PGc+PHBhdGggY2xhc3M9InN0MCIgZD0iTTI1NiwzMkMxMzIuMywzMiwzMiwxMzQuOCwzMiwyNjEuN2MwLDEwMS41LDY0LjIsMTg3LjUsMTUzLjIsMjE3LjljMTEuMiwyLjEsMTUuMy01LDE1LjMtMTEuMSAgIGMwLTUuNS0wLjItMTkuOS0wLjMtMzkuMWMtNjIuMywxMy45LTc1LjUtMzAuOC03NS41LTMwLjhjLTEwLjItMjYuNS0yNC45LTMzLjYtMjQuOS0zMy42Yy0yMC4zLTE0LjMsMS41LTE0LDEuNS0xNCAgIGMyMi41LDEuNiwzNC4zLDIzLjcsMzQuMywyMy43YzIwLDM1LjEsNTIuNCwyNSw2NS4yLDE5LjFjMi0xNC44LDcuOC0yNSwxNC4yLTMwLjdjLTQ5LjctNS44LTEwMi0yNS41LTEwMi0xMTMuNSAgIGMwLTI1LjEsOC43LTQ1LjYsMjMtNjEuNmMtMi4zLTUuOC0xMC0yOS4yLDIuMi02MC44YzAsMCwxOC44LTYuMiw2MS42LDIzLjVjMTcuOS01LjEsMzctNy42LDU2LjEtNy43YzE5LDAuMSwzOC4yLDIuNiw1Ni4xLDcuNyAgIGM0Mi44LTI5LjcsNjEuNS0yMy41LDYxLjUtMjMuNWMxMi4yLDMxLjYsNC41LDU1LDIuMiw2MC44YzE0LjMsMTYuMSwyMywzNi42LDIzLDYxLjZjMCw4OC4yLTUyLjQsMTA3LjYtMTAyLjMsMTEzLjMgICBjOCw3LjEsMTUuMiwyMS4xLDE1LjIsNDIuNWMwLDMwLjctMC4zLDU1LjUtMC4zLDYzYzAsNi4xLDQsMTMuMywxNS40LDExQzQxNS45LDQ0OS4xLDQ4MCwzNjMuMSw0ODAsMjYxLjcgICBDNDgwLDEzNC44LDM3OS43LDMyLDI1NiwzMnoiLz48L2c+PC9zdmc+" class ="footer-logo" alt="GitHub logo"></a>
+                    </li>
+                </ul>
+                
+            </div>
+        </footer>
+    </body>
+</html>
