@@ -23,20 +23,14 @@ body {
     --font1: 60px;
     --font2: 40px;
 }
-
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 20px;
-    min-width: 800px;
-    
-  }
-
+    padding: 0 1.38%;
+}
 .nav {
     margin-left: auto;
 }
-
 .nav-list {
     display: flex;
     list-style: none;
@@ -51,7 +45,6 @@ body {
     color: var(--color-white);
     text-decoration: none;
 }
-
 .nav-item :hover {
     color: var(--color-gold);
 
@@ -64,12 +57,10 @@ body {
     display: flex;
     align-items: center;
 }
-
 .header-logo:hover, .video-button:hover, .social-link:hover {
     filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
       contrast(87%);
 }
-
 .lang-switch {
     font-weight: 700;
     display: flex;
@@ -79,19 +70,16 @@ body {
 }
 .en :hover,
 .ru :hover{
-    color: #BDAE82;
+    color: var(--color-gold);
     cursor: pointer;
 }
-
 .main-container {
-
     border: solid transparent;
     padding-top: 0px;
     background-image: url("assets/img/header-bg.jpg");
     background-position: center -90px;
     background-repeat: no-repeat;
 }
-
 .hero-section {
     padding-bottom: 330px;
     padding-left: 5.56%;
@@ -113,7 +101,6 @@ body {
     font-size: 20px;
     line-height: 40px;
 }
-
 .about-hero {
     display: block;
     width: 470px;
@@ -125,35 +112,32 @@ body {
 .button-brown, .button-brown-price, .button-brown-submit {
     width: 220px;
     height: 55px;
-    color: #000000;
-    background-color: #BDAE82;
+    color: var(--color-black);
+    background-color: var(--color-gold);
     cursor: pointer;
 }
-
 .section-title {
     text-align: center;
     font-family: var(--font-Merriweather);
     font-style: normal;
     font-size: 40px;
     line-height: 80px;
-    color: #BDAE82;
+    color: var(--color-gold);
 }
 .parent-section-skills-title {
     background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
     height: 80px;
-    width: 700px;
+    width: 50%;
     margin: 0 auto;
     padding-top: 100px;
-    margin-bottom: 60px;
+    margin-bottom: 60px; 
 }
 .section-title-text {
     display: inline;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--color-black);
     font-size: 40px;
     line-height: 80px;
 }
-
-
 .list-items {
     list-style: none;
     display: flex;
@@ -161,12 +145,7 @@ body {
     font-family: var(--font-Inter);
     font-style: normal;
     text-align: center;
-    color: #FFFFFF;
-    padding-top: 70px;
-}
-.skills-section {
-    padding-top: 90px;
-    
+    color: var(--color-white);
 }
 .skills {
     border: solid transparent;
@@ -189,25 +168,29 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 36px;
-    color: #FFFFFF;
+    color: var(--color-white);
 }
- .transparent-buttons{
+ .transparent-buttons {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 5px;
     padding-bottom: 60px;
-    
+    margin: 0;
 }
 .button-transparent {
-    border: solid #BDAE82; 
-    color: #BDAE82;
-    background-color: #000000;  
+    border: solid var(--color-gold); 
+    color: var(--color-gold);
+    background-color: var(--color-black);  
     width: 225px;
     height: 55px;
     cursor: pointer;
 }
-.button-transparent:hover {
+.button-transparent:hover,
+.button-brown:hover,
+.button-brown-price:hover,
+.button-brown-submit:hover {
     color: var(--color-white);
 }
 #button-transparent-autumn {
@@ -215,8 +198,8 @@ body {
     color: var(--color-black);
 }
 .portfolio-items {
-    width: 1400px;
-    height: 1145px;
+    width: 100%;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -227,16 +210,16 @@ body {
 }
 .video-player-img{
     top: 240px;
-    width: 1440px;
-    height: 705px;
+    width: 100%;
+    height: auto;
 }
 .video-player {
     position: relative;
 }
 .video-button {
     position: absolute;
-    top: 528px;
-    left: 656px;
+    top: 56%;
+    left: 45.5%;
     border: transparent;
     background-color: transparent;
 }
@@ -247,7 +230,7 @@ body {
     flex-wrap: wrap;
 }
 .price-box{
-    border: solid 3px #BDAE82;
+    border: solid 3px var(--color-gold);
     width: 450px;
     height: 505px;  
 }
@@ -257,7 +240,7 @@ body {
     font-style: normal;
     font-size: 28px;
     line-height: 56px;
-    color: #FFFFFF;
+    color: var(--color-white);
     text-align: center;
     margin-top: 43px;
 }
@@ -267,7 +250,7 @@ body {
     font-style: normal;
     font-size: 24px;
     line-height: 48px;
-    color: #BDAE82;
+    color: var(--color-gold);
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -280,7 +263,7 @@ body {
     font-size: 18px;
     line-height: 36px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 .button-brown-price{
     margin-left: 25.56%;
@@ -288,20 +271,33 @@ body {
 }
 .contacts-items {
     margin-top: 100px;
-    padding-top: 60px;
     background: url("assets/img/contacts.jpg");
     background-size: auto 700px;
     background-position: center center;
     background-repeat: no-repeat;
     height: 700px;
-    padding-left: 67.36%;   
+    overflow-x: hidden;
+}
+#contacts-title {
+    margin-top: 60px;
+    margin-left: 49%;
+}
+.contacts-form {
+    display: flex;
+    align-items: flex-end;
+    padding-right: 20px;
+    flex-direction: column;
 }
 .contacts {
     height: 50px;
     width: 450px;
     margin-top: 20px;
-    border: 2px solid #BDAE82;
+    border: 2px solid var(--color-gold);
     background-color: rgba(0, 0, 0, 0.5);
+    color: #bdae82;
+}
+.button-brown-submit {
+    margin-right: 238px;
 }
 #text {
     height: 100px;
@@ -318,18 +314,23 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: var(--color-white);
     font-family: var(--font-Inter);
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
     line-height: 50px;
 }
+.footer-links {
+    text-decoration: none;
+    color: var(--color-white);
+}
 .footer-data {
     width: 182px;
     height: 50px;
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
 .footer-data>img {
     width: 19px;
@@ -343,9 +344,7 @@ body {
     display: flex;
     width: 188px;
     justify-content: space-between;
-
 }
 .social-link {
     list-style: none;
 }
-
