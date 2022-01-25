@@ -1,1 +1,19 @@
-console.log ("Вёрстка валидная (10) /n Вёрстка семантическая (20) /n Вёрстка соответствует макету (48) /n Требования к css (12) /n Интерактивность, реализуемая через css (20) => 100")
+const hamb = document.querySelector(".burder-menu");
+const navList = document.querySelector(".nav-list");
+const navLinks = document.querySelectorAll(".nav-link");
+
+function mobileMenu () {
+    hamb.classList.toggle("open");
+    navList.classList.toggle("open");
+}
+function closeMenu(event) {
+    if (event.target.classList.contains("nav-link")) {
+        hamb.classList.remove("open");
+        navList.classList.remove("open")
+    }
+
+}
+hamb.addEventListener("click", mobileMenu);
+navLinks.forEach((el) => el.addEventListener("click", closeMenu));
+
+console.log(75)
