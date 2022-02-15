@@ -1,0 +1,135 @@
+:root {
+    --trans-brown1: rgba(233, 169, 86, 0.507);
+    --trans-brown2: rgba(233, 169, 86, 0.274);
+    --trans-brown3: rgba(233, 169, 86, 0.397);
+
+}
+body {
+    font-size: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 100vh;
+    transition: 0.5s;
+}
+.main-search-container {
+    padding: 8px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--trans-brown1);
+}
+
+.search-container {
+    width: 50%;
+    height: 60px;
+    background-color: var(--trans-brown3);
+    border: 1px solid transparent;
+    border-radius: 1%;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 50px;
+}
+@media screen and (max-width: 720px) {
+    .search-container{
+    width: 100%;
+    }
+}
+.search {
+    height: 100%;
+    width: 90%;
+    background-color: transparent;
+    font-size: 40px;
+    border: 0px;
+    text-align: center;
+}
+.search:focus {
+    outline: none;
+}
+.search-button {
+    width: 50px;
+    height: auto;
+    padding-left: 1%;
+    user-select: none;
+}
+.search-button:hover {
+    width: 55px;
+    cursor: pointer;
+}
+.page-buttons {
+    display: flex;
+    align-items: center;
+}
+.prev-page,
+.next-page {
+    display: block;
+    font-size: 0;
+    user-select: none;
+}
+.prev-page.active,
+.next-page.active {
+    font-size: 40px;
+    color: rgb(56, 56, 56);
+}
+.prev-page.hovered,
+.next-page.hovered {
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--trans-brown2);
+    gap: 1%
+}
+.img-block {
+    padding: 5px 0;
+}
+.img {
+    width: 300px;
+    height: 200px;
+    transition: 0.1s;
+}
+.footer-container {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--trans-brown1);
+    padding: 0 5%;
+}
+@media screen and (max-width: 720px) {
+    .footer-container {
+        flex-direction: column;
+    }
+}
+.footer-left {
+    font-size: 25px;
+}
+.footer-left-span {}
+.git-link {
+    text-decoration: none;
+    color: black;
+}
+.api {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.api-logo {
+    height: 45px;
+    padding: 5px;
+}
+.api-span {
+    display: block;
+    padding-top: 3px;   
+}
+.footer-right {}
+.rs-link {}
+.rs-school-logo {
+    height: 45px;
+}
