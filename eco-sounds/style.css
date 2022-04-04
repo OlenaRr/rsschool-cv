@@ -1,0 +1,130 @@
+:root {
+    --trans-black1: rgba(116, 114, 114, 0.226);
+    --trans-black2: rgba(0, 0, 0, 0.116);
+}
+
+body {
+    font-size: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+.main {
+    height: calc(100vh - 90px);
+}
+.main-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    gap: 40px;
+    
+}
+.button-container {
+    position:absolute;
+    background-color: var(--trans-black1);
+    height: 10vh;
+    width: 65%;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+.button-container.weak {opacity: 0.6;}
+.button-list {
+    display: flex;
+    gap: 5%;
+    padding: 10px;
+    justify-content: center;
+    height: 75%;
+}
+.list-items {
+    list-style-type: none;
+    min-width: auto;
+    width: 20%;;
+    height: 100%;
+}
+.button {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 0;
+}
+.button.weak {opacity: 0.7;}
+.button.active {height: 100px; margin: -20px 0; opacity: 1;}
+.button:hover {
+    height: 105%;
+    width: 105%;
+}
+#button1 {background: url("assets/pictures/sea.gif");background-size: cover;}
+#button2 {background: url("assets/pictures/stream.gif");background-size: cover;}
+#button3 {background: url("assets/pictures/forest.gif");background-size: cover;}
+#button4 {background: url("assets/pictures/home.gif");background-size: cover;}
+#button5 {background: url("assets/pictures/fire.gif");background-size: cover;}
+.audio-container {
+    position: absolute;
+    margin-top: 200px;
+    width: 40%;
+}
+.audio-button {
+    cursor: pointer;
+    border-radius: 50%;
+    border: transparent;
+    background-color: var(--trans-black2);
+    width: 90%;
+    height: auto;
+}
+.audio-button-image {
+    width: 30%;
+    padding-left: 5%;
+    transition: 0.5s;
+}
+.audio-button-image.highlight {
+    width: 33%;
+}
+/* .footer {} */
+.footer-container {
+    background-color: var(--trans-black1);
+    padding: 15px ;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-left {
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .footer-left-logo {} */
+/* .footer-left-span {} */
+.git-link {
+    text-decoration: none;
+    color: black;
+}
+.footer-right {
+    height: 80%;
+}
+/* .rs-link {} */
+.rs-school-logo {
+    height: 100%;
+    width: auto;
+}
+@media screen and (max-width: 760px){
+    .button-container {
+        width: 90%;
+    }
+    .audio-container {
+        width: 60%;
+    }
+}
