@@ -6,7 +6,7 @@
 ***
 
 ## Summary 
-<p>Currently working as a radiologist in a hospital, I wanted to explore other professions which could potentially improve my level of life and bring more benefits for the amount of work I do. Programming happens to be possibly the best option to achieve that, so I started taking courses and dived in self-learning on the topic. So far, I have fully completed a course on FreeCodeCamp (Responsive Web Design), started the next part about JavaScript, also currently undertaking a course at Rolling Scopes School (JavaScript/Front-end. Stage 0) and plan on taking the following courses there as well.</p>
+<p>Currently working as a radiologist in a hospital, I wanted to explore other professions which could potentially improve my level of life and bring more benefits for the amount of work I do. Programming happens to be possibly the best option to achieve that, so I started taking courses and dived in self-learning on the topic. </p>
 <p>I believe that with my level of commitment, interest and being a hard-worker, I can achieve substantial results in my learning and proceed with working in the industry.</p>
 
 ## Skills
@@ -46,6 +46,8 @@ def factorial(n):
 
 
 ## Relevant Experience
+* [__Eco-sounds webpage (github)__](https://OlenaRr.github.io/rsschool-cv/eco-sounds)
+* [__Image-gallery webpage (github)__](https://OlenaRr.github.io/rsschool-cv/image-gallery)
 * [__Portfolio webpage (codepen)__](https://codepen.io/Olena_Rr/full/porxjrj)
 * [__Documentation webpage (codepen)__](https://codepen.io/Olena_Rr/full/porKYEe)
 * [__Form filling webpage (codepen)__](https://codepen.io/Olena_Rr/full/mdMwPQz)
@@ -54,4 +56,4 @@ def factorial(n):
 ## Relevant Education
 [__FreeCodeCamp - Responsive Web Design Certificate__](https://www.freecodecamp.org/certification/fcc001fe431-6cae-4dbe-bd5b-9a0d26f9654e/responsive-web-design)
 
-
+[__THE ROLLING SCOPES SCHOOL - JS/FE PRE-SCHOOL 2022__](https://app.rs.school/certificate/syz0nq95)
